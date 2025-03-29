@@ -1,27 +1,6 @@
-body {
-    margin: 0;
-    display: flex;
-    height: 100vh;
-}
-
-#three-container {
-    width: 50%;
-    height: 100vh;
-}
-
-#p5-panels {
-    width: 50%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 10px;
-    padding: 10px;
-    background: #2c2c2c;
-}
-
-.p5-container {
-    position: relative;
-    background: #1a1a1a;
-    overflow: hidden;
-    aspect-ratio: 1 / 1; /* Ensures the container is a square */
-}
+@font-face {
+    font-family: 'Departure';
+    src: url('./fonts/DepartureMono-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+  }

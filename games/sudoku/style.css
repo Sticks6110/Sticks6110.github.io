@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    overflow: hidden; /* Prevents any scroll issues */
+}
+
+#three-container {
+    width: 50%;
+    height: 100vh;
+}
+
+#p5-panels {
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Keeps 3 columns */
+    grid-template-rows: repeat(4, 1fr); /* Keeps 4 rows */
+    gap: 5px; /* Reduced gap to fit everything */
+    padding: 5px;
+    background: #2c2c2c;
+    box-sizing: border-box;
+    height: 100vh; /* Ensures full height without overflow */
+    justify-content: center;
+    align-content: center;
+}
+
+.p5-container {
+    background: #1a1a1a;
+    height: 100%; /* Prevents overlapping */
+    aspect-ratio: 1 / 1; /* Ensures the container stays square */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto; /* Ensures centering inside the grid */
+}
+
+/* Ensures p5.js sketches fit inside their containers */
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+    display: block;
+}
