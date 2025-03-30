@@ -4,3 +4,9 @@
     font-weight: normal;
     font-style: normal;
   }
+
+  #p5-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

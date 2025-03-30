@@ -3,8 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="./main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
     <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <script src="./main.js"></script>
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
@@ -66,7 +67,7 @@
           <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
           <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
           <div class="flex items-center justify-center h-full">
-            <span id="name" class="text-4xl text-black">Sticks</span>
+            <span id="name" class="text-5xl text-black">Sticks</span>
           </div>
         </div>
 
@@ -76,14 +77,27 @@
           <span class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-black"></span>
           <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
           <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
+          AA
         </div>
 
-        <div class="relative col-span-2 row-span-8 bg-white">
-          <span class="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-black"></span>
-          <span class="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-black"></span>
-          <span class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-black"></span>
-          <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
-          <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
+        <div class="col-span-2 row-span-8 grid grid-rows-[auto_1fr] gap-4">
+          <div class="relative bg-white aspect-square">
+            <div id="p5-container" class="absolute w-full h-full"></div>
+            <span class="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-black"></span>
+            <span class="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-black"></span>
+            <span class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-black"></span>
+            <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
+            <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
+          </div>
+          
+          <div class="relative bg-white flex-1">
+            <span class="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-black"></span>
+            <span class="absolute top-0 right-0 w-4 h-4 border-t-2 border-r-2 border-black"></span>
+            <span class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-black"></span>
+            <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
+            <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
+            BB
+          </div>
         </div>
 
         <div class="col-span-2 row-span-6 grid grid-rows-[auto_1fr] gap-4">
@@ -103,7 +117,7 @@
             <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
             <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
             <div class="flex items-center justify-center h-full">
-              <span id="time" class="text-4xl text-black">12:00 PM</span>
+              <span id="time" class="text-5xl text-black">12:00 PM</span>
             </div>
           </div>
         </div>
@@ -114,6 +128,7 @@
           <span class="absolute bottom-0 left-0 w-4 h-4 border-b-2 border-l-2 border-black"></span>
           <span class="absolute bottom-0 right-0 w-4 h-4 border-b-2 border-r-2 border-black"></span>
           <span class="absolute bottom-0 left-0 w-full h-full border-2 border-dotted z-0 pointer-events-none"></span>
+          CC
         </div>
       </div>
     </div>
