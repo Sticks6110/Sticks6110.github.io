@@ -1,9 +1,18 @@
 [
     {
+        "title": "SIMD Research Project",
+        "desc": "This is a overview of a project I completed as part of a engineering class.",
+        "auth": "Brennan / Sticks",
+        "date": "12-14-25",
+        "file": "12-14-25.md",
+        "db_id": 1
+    },
+    {
         "title": "First Post",
         "desc": "This is the first ever dev diary / blog post. It goes over this website.",
-        "auth": "Sticks",
+        "auth": "Brennan / Sticks",
         "date": "4-21-25",
-        "file": "4-21-25.md"
+        "file": "4-21-25.md",
+        "db_id": 0
     }
 ]
